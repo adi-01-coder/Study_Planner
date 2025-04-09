@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f4f8;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2rem;
+    color: #0066cc;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border-radius: 12px;
+  }
+  
+  .planner {
+    display: grid;
+    grid-template-columns: 100px repeat(5, 1fr);
+    grid-auto-rows: 60px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .planner div {
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    padding: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .planner div:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .header {
+    background-color: #0066cc;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .time {
+    background-color: #f2f4f8;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .math {
+    background-color: #f28b82;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .cs {
+    background-color: #a7ffeb;
+    font-weight: 500;
+  }
+  
+  .physics {
+    background-color: #aecbfa;
+    font-weight: 500;
+  }
+  
+  .chem {
+    background-color: #ffd6a5;
+    font-weight: 500;
+  }
+  
+  .free {
+    background-color: #e0e0e0;
+    color: #555;
+    font-style: italic;
+  }
+  
